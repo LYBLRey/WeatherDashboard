@@ -1,0 +1,64 @@
+.list-group {
+  width: 25%;
+  padding-left: 40px;
+  order: 1;
+}
+
+.btn {
+  width: 100%;
+}
+
+body {
+  background: #f2abff;
+  background: linear-gradient(
+    90deg,
+    rgb(214, 39, 106) 0%,
+    rgb(76, 0, 254) 100%,
+    rgb(234, 0, 255) 100%
+  );
+}
+
+#search {
+  order: 1;
+  width: 125%;
+  opacity: 88%;
+  background-color: blueviolet;
+  height: 33%;
+}
+
+.valid-input {
+  color: purple;
+  text-emphasis: inherit;
+}
+
+.weather-icon-img,
+.card-icon {
+  width: 100px;
+  height: 100px;
+}
+
+#forecast-div {
+  opacity: 80%;
+  background-color: teal;
+}
+
+#forecast {
+  width: 1000px;
+  order: 2;
+  width: 80%;
+  height: 25%;
+}
+
+.card-body {
+  height: 450px;
+}
+
+.cards {
+  width: 160px;
+  opacity: 80%;
+  background-color: teal;
+}
+
+.width {
+  width: 100%;
+}
