@@ -2,7 +2,7 @@ const apiKey = "c0603ea7a74f67930699def6ca862de0"
 const today = moment().format("dddd, MMM Do YYYY")
 const cityName = document.querySelector("#searchInput").value
 
-const getCurrentData = (txtSearchEl) => {
+const getCurrentData = (cityName) => {
   fetch(
     `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${apiKey}&units=imperial`
   )
@@ -16,7 +16,7 @@ const getCurrentData = (txtSearchEl) => {
 
 document.querySelector("#search").addEventListener("submit", (e) => {
   e.preventDefault()
-
+  const cityName = document.querySelector("#searchInput").value
   console.log(cityName)
   getCurrentData(cityName)
 })
